@@ -35,9 +35,9 @@ jobs:
           - target: x86_64-unknown-linux-musl
             host: ubuntu-latest
             workdir: /home/runner/work/numeronym/numeronym
-          - target: aarch64-unknown-linux-musl
-            host: ubuntu-latest
-            workdir: /home/runner/work/numeronym/numeronym
+              #          - target: aarch64-unknown-linux-musl
+              #            host: ubuntu-latest
+              #            workdir: /home/runner/work/numeronym/numeronym
 
     steps:
       - uses: actions/checkout@master
